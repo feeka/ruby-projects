@@ -25,3 +25,8 @@ group :development, :test do
 end
 
 gem 'httparty'
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
