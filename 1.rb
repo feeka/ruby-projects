@@ -30,3 +30,18 @@ puts ''
 for i in 0..10
 	puts i
 end
+
+def mama()
+	puts "Mama is Arzu"
+end
+def papa()
+	puts "Papa is Talib"
+end
+
+def sum(a,b)
+	a+b#lol
+end
+
+papa()
+mama
+puts sum(1,2)
